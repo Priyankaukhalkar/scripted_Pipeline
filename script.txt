@@ -3,10 +3,10 @@ node {
         echo 'fetching source code from github'
     }
     stage('second stage'){
-        echo 'creating the build....'
+        echo 'creating the build'
     }
     stage('third stage'){
-        echo 'this is testing...phase'
+        echo 'this is testing phase'
     }
     stage('fourth stage'){
         echo 'this is deploying phase'
